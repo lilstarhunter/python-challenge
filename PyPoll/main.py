@@ -30,9 +30,9 @@ with open(csvpath, 'r') as csvfile:
         #Count total number of votes for each candidate
         if row[2] == "Khan":
             khan_vote += 1
-        if row[2] == "Correy":
+        elif row[2] == "Correy":
             correy_vote += 1
-        if row[2] == "Li":
+        elif row[2] == "Li":
             li_vote += 1
         else:
             otool_vote += 1
