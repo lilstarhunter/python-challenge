@@ -44,7 +44,7 @@ with open(csvpath, 'r') as csvfile:
     per_li = round((li_vote/vote_counter) * 100,2)
     per_otool = round((otool_vote/vote_counter) * 100,2)
 
-    #Create final results dictionary to key winner and results
+    #Create final results dictionary to find winner and number of votes
     d = {"Kahn":khan_vote, "Correy":correy_vote, "Li":li_vote, "O'Toole":otool_vote}
     max_key = max(d.keys(), key=lambda x: d[x])
     max_value = d[max_key]
