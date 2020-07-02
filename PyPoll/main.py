@@ -59,7 +59,7 @@ with open(csvpath, 'r') as csvfile:
     print(f"Li: {per_li}% ({li_vote})")
     print(f"O'Toole: {per_otool}% ({otool_vote})")
     print(f"----------------------------")
-    print(f"Winner: {max_key} ({max_value}))")
+    print(f"Winner: {max_key} ({max_value})")
     print(f"----------------------------")
     
     #Print report to new file
